@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1E52391F509323001FC106 /* emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E52381F509323001FC106 /* emoji.swift */; };
+		AD1E523B1F509BB5001FC106 /* EmojiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E523A1F509BB5001FC106 /* EmojiList.swift */; };
 		AD956C411F2CF14B00A2AED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD956C401F2CF14B00A2AED5 /* AppDelegate.swift */; };
 		AD956C431F2CF14B00A2AED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD956C421F2CF14B00A2AED5 /* ViewController.swift */; };
 		AD956C461F2CF14B00A2AED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD956C441F2CF14B00A2AED5 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD1E52381F509323001FC106 /* emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emoji.swift; sourceTree = "<group>"; };
+		AD1E523A1F509BB5001FC106 /* EmojiList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiList.swift; sourceTree = "<group>"; };
 		AD956C3D1F2CF14B00A2AED5 /* Mojidictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mojidictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD956C401F2CF14B00A2AED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD956C421F2CF14B00A2AED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				AD956C401F2CF14B00A2AED5 /* AppDelegate.swift */,
 				AD956C421F2CF14B00A2AED5 /* ViewController.swift */,
+				AD1E523A1F509BB5001FC106 /* EmojiList.swift */,
 				AD956C521F2D037100A2AED5 /* DefinitionViewController.swift */,
+				AD1E52381F509323001FC106 /* emoji.swift */,
 				AD956C441F2CF14B00A2AED5 /* Main.storyboard */,
 				AD956C471F2CF14B00A2AED5 /* Assets.xcassets */,
 				AD956C491F2CF14B00A2AED5 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 			files = (
 				AD956C431F2CF14B00A2AED5 /* ViewController.swift in Sources */,
 				AD956C531F2D037100A2AED5 /* DefinitionViewController.swift in Sources */,
+				AD1E523B1F509BB5001FC106 /* EmojiList.swift in Sources */,
+				AD1E52391F509323001FC106 /* emoji.swift in Sources */,
 				AD956C411F2CF14B00A2AED5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +313,7 @@
 				AD956C511F2CF14B00A2AED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
